@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unit converter</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="heading-div">
+                <h2 class="heading">UNIT CONVERTER</h2>
+            </div>
+            <div class="main">
+                <div class="input-output">
+                    <div class="input-div">
+                        <input type="number" id="input-unit" placeholder="enter values here">
+                        <select name="select" id="select-input" style="font-size: 20px;">
+                            <option value="km">Kilometer</option>
+                            <option value="m">Meter</option>
+                            <option value="cm">Centimeter</option>
+                        </select>
+                        <!-- <option value="Kilometer"></option> -->
+                    </div>
+
+                    <div class="output-div">
+                        <input type="number" id="output-unit" placeholder="result">
+                        <select name="output" id="select-output"  style="font-size: 20px;">
+                            <option value="kmo">Kilometer</option>
+                            <option value="mo">Meter</option>
+                            <option value="cmo">Centimeter</option>
+                        </select>
+                        <!-- <option value="Kilometer">Kilometer</option> -->
+                    </div>
+                </div>
+                <div class="btn-div"><button class="btn" onclick="converter()">convert the unit</button></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
